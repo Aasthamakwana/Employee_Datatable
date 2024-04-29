@@ -1,0 +1,32 @@
+.modal{
+    --bs-modal-width: 800px !important;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    background-image: none !important;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    background-image: none !important;
+    padding-right: 5px !important;
+}
+
+.form-control{
+    min-width: 200px;
+    max-width: 220px;
+    margin: 10px;
+    padding-right: 5px !important;
+}
+
+.col-4 {
+    width: 70% !important;
+}
+
+.th .td {
+    text-align: center !important;
+}
+
+table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
+    text-align: center !important;
+}
+
